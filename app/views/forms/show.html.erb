@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Department:</strong>
+  <%= @form.department %>
+</p>
+
+<p>
+  <strong>Catogery:</strong>
+  <%= @form.catogery %>
+</p>
+
+<p>
+  <strong>Date started:</strong>
+  <%= @form.date_started %>
+</p>
+
+<p>
+  <strong>Date completed:</strong>
+  <%= @form.date_completed %>
+</p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @form.summary %>
+</p>
+
+<%= link_to 'Back', new_form_path, class: 'btn btn-primary' %>
