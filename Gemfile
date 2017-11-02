@@ -21,6 +21,8 @@ gem 'sendgrid'
 gem 'layer-handler'
 gem 'friendly_id'
 
+gem 'rolify'
+
 # Only Development env gems
 group :development do
   gem 'better_errors'

@@ -1,12 +1,12 @@
 Rails.application.routes.draw do
   resources :forms
   # Back admin routes start
-  namespace :admin do
+  # namespace :admin do
     resources :users
 
     # Admin root
-    root to: 'application#index'
-  end
+    # root to: 'application#index'
+  # end
   # Back admin routes end
 
   # Front routes start

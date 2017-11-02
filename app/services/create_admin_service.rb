@@ -4,6 +4,7 @@ class CreateAdminService
                             name: Rails.application.secrets.admin_name) do |user|
       user.password = Rails.application.secrets.admin_password
       user.password_confirmation = Rails.application.secrets.admin_password
+      user.add_role :admin
       user.admin!
     end
   end
